@@ -1,0 +1,169 @@
+.isDisabled {
+  /* pointer-events: none; */
+  cursor: default;
+}
+
+th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.containers {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.size-color {
+  width: 30px;
+  height: 25px;
+}
+
+
+
+/*------------------------------------*\
+	TRENGGALEK WOW | SMART LINK
+\*------------------------------------*/
+
+.display-infografis {
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #EEE;
+  /* filter: gray;
+  filter: grayscale(100%); */
+}
+
+.display-infografis:after {
+  content: "";
+  background-color: #D9EFFE;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  z-index: -1;
+  -webkit-transition: 0.2s width;
+  transition: 0.2s width;
+}
+
+.display-infografis:hover:after {
+  width: 100%;
+}
+
+.display-infografis h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+  color: #717171;
+  font-size: 15px;
+}
+
+.display-infografis:hover h3 {
+  /* font-size: 16px; */
+  color: #000;
+}
+
+
+
+/*------------------------------------*\
+	TRENGGALEK WOW | SMART LINK
+\*------------------------------------*/
+
+.wow {
+  position: relative;
+  padding: 40px 20px 40px 70px;
+  margin: 15px 0px;
+  border: 1px solid #EEE;
+
+}
+
+.wow i {
+  position: absolute;
+  left: 20px;
+  text-align: center;
+  font-size: 32px;
+  color: #6195FF;
+  border-radius: 50%;
+}
+
+.wow:after {
+  content: "";
+  background-color: #D9EFFE;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  z-index: -1;
+  -webkit-transition: 0.2s width;
+  transition: 0.2s width;
+}
+
+.wow:hover:after {
+  width: 100%;
+}
+
+.wow h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+  color: #717171;
+}
+
+.wow:hover h3 {
+  /* font-size: 22px; */
+  color: #000;
+}
+
+.trenggalek-wow {
+  text-align: center;
+  padding: 5px;
+  /* margin: 0; */
+}
+
+
+/* General css */
+.txt-center {
+  text-align: center !important;
+}
+
+.txt-right {
+  text-align: right !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+
+/* TENTANG */
+#tentang-slider .item-video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+
+
+/* SCROLL BAR */
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 50px !important;
+  background-color: #5F5F5F;
+  padding-right: 3px;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #5F5F5F;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #6195FF;
+}

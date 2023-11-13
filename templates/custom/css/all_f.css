@@ -1,0 +1,86 @@
+    body {
+        background-image: url('assets/templates/images/custom/background-v1i.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .horizontal-menu-page .navbar-default {
+        /*background: #00408f;*/
+        /*background: #ffffff;*/
+        background: none;
+        color: #FFF;
+    }
+
+    .horizontal-menu-page .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFF;
+    }
+
+    .container-fluid {
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 15px;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        float: none;
+        margin: 0 auto;
+        color: #FFF;
+        /*padding: 50px 160px 50px 160px;*/
+    }
+
+    .horizontal-menu-page .dropdown-menu {
+        /*background-color: #00408f;*/
+        background-color: #ffffff;
+    }
+
+    .horizontal-menu-page .navbar-default .navbar-nav > .active > a, .horizontal-menu-page .navbar-default .navbar-nav > .active > a:hover, .horizontal-menu-page .navbar-default .navbar-nav > .active > a:focus, .horizontal-menu-page .navbar-default .navbar-nav > .open > a, .horizontal-menu-page .navbar-default .navbar-nav > .open > a:hover, .horizontal-menu-page .navbar-default .navbar-nav > .open > a:focus, .horizontal-menu-page .navbar-default .navbar-nav > li > a:hover, .horizontal-menu-page .navbar-default .navbar-nav > li > a:focus {
+        background-color: #1d888a;
+        color: #FFFFFF;
+    }
+
+    .flipster__nav__link:hover, a:focus, a:active, a:hover {
+        color: #000;
+    }
+
+    .flipster__nav__link {
+        color: #00000057;
+    }
+
+    .flipster__nav__item--current > .flipster__nav__link, .flipster__nav__link:hover, .flipster__nav__link:focus {
+        color: #000;
+        font-weight: 700;
+    }
+
+
+    /* RESPONSIVE MEDIA SCREEN */
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        .xshidden {display: none;}
+
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .shidden {display: none;}
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        .mhidden {display: none;}
+    } 
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    .lhidden {display: none;}
+    } 
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .xhidden {display: none;}
+    }
+    /* End RESPONSIVE MEDIA SCREEN */

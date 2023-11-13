@@ -1,0 +1,68 @@
+
+/* MENU UTAMA */
+.navbar-right li a {
+  cursor: pointer;
+}
+
+
+
+/* ////////////////////////////////////////////// */
+/* FOOTER */
+.home-footer {
+  position: absolute;
+  bottom: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.hf-col1 {
+  width: 40%;
+}
+
+.hf-col1 img {
+  padding-right: 20px;
+}
+
+.hf-col2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 5px;
+  width: 70%;
+  color: #DADADA;
+}
+
+.hf-col2 table {
+  width: 100%;
+}
+
+.hf-col2 table td {
+  border-left: 2px solid #E99D17;
+  padding-left: 9px;
+}
+
+.hf-col2 table td div {
+  font-size: 13px !important;
+}
+
+.hf-col2 table td div b {
+  font-size: 18px !important;
+}
+
+.hf-col2 table td:nth-child(1) {
+  width: 20%;
+}
+
+.hf-col2 table td:nth-child(2) {
+  width: 25%;
+}
+
+.co-gold {
+  color: #E99D17;
+}
+
+
+/* HIDDEN FOOTER IF DISPLAY ANDORID */
+@media screen and (max-width: 1050px) {
+  .home-footer {
+    visibility: hidden;
+  }
+}
