@@ -76,9 +76,14 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'bapped12_warga',
-	'password' => 'Warga@2021',
-	'database' => 'bapped12_warga',
+	'username' => 'bapped13_adm',
+	'password' => 'cO.XP.^b=8]Q',
+	'database' => 'bapped13_ksb',
+
+	// 'username' => 'bapped12_warga',
+	// 'password' => 'Warga@2021',
+	// 'database' => 'bapped12_warga',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
